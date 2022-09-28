@@ -1,0 +1,1216 @@
+.vt-ek-div-30 {
+  margin-bottom: 20px;
+}
+
+.vt-fifty-margin {
+  margin: 50px 0 50px;
+}
+
+.vt-padding-com {
+  padding-left: 30px;
+}
+
+.vt-padding-com-40 {
+  padding-left: 50px;
+}
+
+.vt-padding-com-75 {
+  padding-left: 75px;
+}
+
+.vt-margin-zero {
+  margin: 0;
+}
+
+.vt-margin-50 {
+  margin-left: 50px;
+}
+
+.button-block {
+  /* width: 600px;
+   margin: 200px auto; */
+}
+
+.social {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.social a {
+  display: block;
+  background: #9d00ff;
+  padding: 10px;
+  position: relative;
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+  box-shadow: -10px 10px 10px rgba(255, 255, 255, 0.85);
+  transition: all 0.5s ease-in-out;
+}
+
+.social a::before {
+  dislpay: block;
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  left: -10px;
+  top: 5px;
+  background: rgba(228, 0, 255, 0.38);
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+.social a::after {
+  dislpay: block;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: -5px;
+  height: 10px;
+  width: 100%;
+  transform: rotate(0deg) skewX(-45deg);
+  background: rgba(216, 0, 255, 0.7);
+  transform: rotate(45deg) scewY(-45deg);
+}
+
+.social a:hover {
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(10px, -10px);
+  box-shadow: -50px 50px 30px rgba(0, 0, 0, 0.5);
+}
+
+.social a i {
+  color: white;
+  font-size: 20pt;
+  width: 25px;
+}
+
+.vt-blog-bg {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/blog-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 0;
+  top: 0px;
+  margin-top: -22px;
+  padding-bottom: 20px;
+}
+.vt-blog-bg .vt-blog-strip {
+  width: 300px;
+  height: 60px;
+  top: -18px;
+}
+
+.card-bg {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+
+.card-text-muted {
+  color: #771fd1 !important;
+  font-size: 0.95em;
+}
+
+.vt-card-color {
+  color: #222f6a;
+  margin-bottom: 30px;
+}
+
+.new-class:nth-child(3n+2) .vt-blog-list-bg {
+  background: linear-gradient(270deg, #9E5EEA 0%, #9D029C 100%) !important;
+  padding: 10px 15px 10px;
+  color: #fff;
+  font-weight: 100;
+}
+.new-class:nth-child(3n+2) .vt-blog-list-bg h5 {
+  color: #efdd00;
+}
+.new-class:nth-child(3n+2) .vt-blog-list-bg h4 {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.vt-blog-list-bg {
+  background: linear-gradient(270deg, #ff508a 0%, #ff075a 100%);
+  padding: 10px 15px 10px;
+  color: #fff;
+  font-weight: 100;
+}
+.vt-blog-list-bg h5 {
+  color: #efdd00;
+}
+.vt-blog-list-bg h4 {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.vt-k {
+  box-shadow: -15px 50px 28px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+  .vt-blog-list-bg {
+    background: linear-gradient(270deg, #ff508a 0%, #ff075a 100%);
+    padding: 10px 15px 10px;
+    color: #fff;
+    font-weight: 100;
+    height: auto;
+  }
+}
+/*know head--------------------------------- */
+.vt-know-head {
+  border: 0;
+  margin: 0;
+  position: relative;
+}
+.vt-know-head .vt-know-head-content {
+  position: absolute;
+  font-size: 25px;
+  top: 30px;
+  color: #fff;
+}
+.vt-know-head .vt-know-head-content2 {
+  position: absolute;
+  font-size: 25px;
+  top: 44%;
+  color: #fff;
+  padding-left: 360px;
+}
+.vt-know-head .vt-know-head-content3 {
+  position: absolute;
+  font-size: 25px;
+  top: 64%;
+  color: #fff;
+  padding-left: 530px;
+}
+.vt-know-head small {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .vt-know-head {
+    border: 0;
+    margin: 0;
+    position: relative;
+  }
+  .vt-know-head .vt-know-head-content {
+    position: absolute;
+    font-size: 14px;
+    top: 30px;
+    color: #fff;
+  }
+  .vt-know-head .vt-know-head-content2 {
+    position: absolute;
+    font-size: 14px;
+    top: 42%;
+    color: #fff;
+    padding-left: 190px;
+  }
+  .vt-know-head .vt-know-head-content3 {
+    position: absolute;
+    font-size: 14px;
+    top: 54%;
+    color: #fff;
+    padding-left: 160px;
+  }
+  .vt-know-head small {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .vt-know-head {
+    border: 0;
+    margin: 0;
+    position: relative;
+  }
+  .vt-know-head .vt-know-head-content {
+    position: absolute;
+    font-size: 14px;
+    top: 30px;
+    color: #fff;
+  }
+  .vt-know-head .vt-know-head-content2 {
+    position: absolute;
+    font-size: 14px;
+    top: 39%;
+    color: #fff;
+    padding-left: 110px;
+  }
+  .vt-know-head .vt-know-head-content3 {
+    position: absolute;
+    font-size: 14px;
+    top: 54%;
+    color: #fff;
+    padding-left: 160px;
+  }
+  .vt-know-head small {
+    font-size: 11px;
+  }
+}
+.vt-font-weight {
+  font-weight: 500;
+}
+.vt-font-weight .vt-span-font {
+  font-family: "Bufally Script";
+  font-size: 33px;
+  color: rgba(255, 7, 90, 0.8784313725);
+  margin-left: 0px;
+  font-weight: 500;
+}
+
+.vt-font-weight-400 {
+  font-weight: 400;
+}
+.vt-font-weight-400 .vt-span-font {
+  font-family: "Bufally Script";
+  font-size: 33px;
+  color: rgba(255, 7, 90, 0.8784313725);
+  margin-left: 0px;
+  font-weight: 500;
+}
+
+.vt-headding-font {
+  font-family: "Bufally Script";
+  font-size: 45px;
+  color: #771fd1;
+  font-weight: 700;
+}
+
+#heading {
+  display: flex;
+  flex-direction: row;
+}
+#heading .image-team {
+  width: 20%;
+}
+#heading .image-pillars {
+  width: 35%;
+}
+
+#heading::before,
+#heading::after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #ddd;
+  margin: auto;
+}
+
+/*success story*/
+.vt-succ-str-bg {
+  background-color: rgb(254, 207, 101);
+  border: 1px solid rgb(254, 207, 101);
+  color: #6c08c7;
+}
+
+.btn-outline-primary {
+  color: #6c08c7 !important;
+}
+
+.btn-outline-primary.active {
+  color: #f5f903 !important;
+  background-color: #6c08c7;
+  border-color: #6c08c7;
+  box-shadow: none !important;
+}
+
+/*Our Philosophy bolu*/
+.vt-team-bg {
+  background-image: url(../img/KnowVentura_tushar-01.png);
+  background-size: 1235px 684px;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  left: 0;
+  top: 115px;
+  position: relative;
+}
+.vt-team-bg .vt-team-pos {
+  position: relative;
+  top: -120px;
+}
+.vt-team-bg .vt-team-pos p {
+  font-size: 21px;
+}
+.vt-team-bg .vt-team-pos strong {
+  font-size: 33px;
+  color: rgba(255, 7, 90, 0.8784313725);
+}
+
+.vt-our-show {
+  display: none;
+}
+
+.vt-Philosophy-showbolu {
+  top: 0;
+}
+.vt-Philosophy-showbolu h2 {
+  font-family: "Bufally Script";
+  font-size: 30px;
+  color: #000;
+  font-weight: 400;
+  position: relative;
+  opacity: 1;
+}
+
+.vt-serv-menu {
+  background: radial-gradient(circle at top, #e5e5e5, #fff);
+  margin: 5px;
+  padding: 15px 25px 10px;
+  transition: transform 0.6s;
+}
+.vt-serv-menu a {
+  font-size: 10px;
+  font-weight: 500;
+  padding: 10px 0px 10px;
+  width: 115px;
+  color: #000;
+}
+
+.vt-serv-menu:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.vt_animation {
+  position: relative;
+  opacity: 0;
+  transition: 5s all ease;
+  -webkit-animation: aboutani none;
+          animation: aboutani none;
+}
+
+.vt_animation.active {
+  opacity: 1;
+  -webkit-animation: aboutani 5s;
+          animation: aboutani 5s;
+}
+
+.vt-out-bolu {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.vt-out-bolu .vt-Philosophy-bolu {
+  position: absolute;
+  top: 18%;
+}
+.vt-out-bolu .vt-Philosophy-bolu h2 {
+  font-family: "Bufally Script";
+  font-size: 55px;
+  color: #000;
+  font-weight: 400;
+}
+.vt-out-bolu .vt-Philosophy-bolu p {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.vt-h3-Philosophy {
+  top: -65px;
+  position: relative;
+  font-family: "Bufally Script";
+}
+.vt-h3-Philosophy h3 {
+  float: right;
+  font-size: 55px;
+  color: #571d97;
+}
+
+.vt-our-pillars {
+  position: relative;
+  border: 0;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.vt-our-pillars .vt-our-pillars-bgcolor {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  background: #B400D6;
+  top: 55px;
+  z-index: -1;
+}
+.vt-our-pillars img {
+  position: inherit;
+  width: 185px;
+  margin: -15px 0 0;
+  border-radius: 50%;
+}
+
+.vt-ourteam-hd {
+  position: relative;
+}
+
+.vt-our-team {
+  background-color: #dee2e6 !important;
+  position: relative;
+  height: 315px;
+}
+
+.vt-team-image {
+  width: 80%;
+  height: 375px;
+  position: inherit;
+  top: -60px;
+}
+
+.vt-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e1e1e1+33,e1e1e1+33,f1f1f1+50,f6f6f6+100 */
+  background: #ffffff;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #ffffff 0%, #e1e1e1 33%, #e1e1e1 33%, #f1f1f1 50%, #f6f6f6 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#f6f6f6", GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.vt-our-team:hover .vt-overlay {
+  opacity: 1;
+}
+
+.vt-image-text {
+  color: rgb(116, 16, 16);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.vt-image-text p {
+  font-size: 13px;
+}
+.vt-image-text h6 {
+  color: #771fd1;
+}
+.vt-image-text span {
+  font: 14px !important;
+  color: #771fd1;
+}
+
+.vt-our-pillars-hide {
+  display: none;
+}
+
+.vt-contact-header-bg {
+  position: relative;
+  border: 0;
+}
+.vt-contact-header-bg .vt-contact-heding {
+  position: absolute;
+  top: 50%;
+}
+.vt-contact-header-bg .vt-contact-heding p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 35px;
+}
+.vt-contact-header-bg .vt-contact-heding span {
+  font-family: "Bufally Script";
+  font-size: 40px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.akey-pon {
+  padding: 0;
+  list-style: none;
+}
+
+.akey-pon li {
+  margin: 10px 0;
+  padding-bottom: 55px;
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-animation: aboutani 3s;
+          animation: aboutani 3s;
+}
+
+@-webkit-keyframes aboutani {
+  from {
+    transform: rotateY(90deg);
+    opacity: 0.2;
+  }
+  to {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+.akey-pon li i {
+  position: absolute;
+  top: -85px;
+  left: 55px;
+  /* text-align: center; */
+  width: 50px;
+  line-height: 44px;
+  font-size: 25px;
+}
+
+.vt-con-padding-li {
+  background-color: #ffcf64;
+  padding: 25px 20px 25px 20px;
+  margin-left: 180px;
+  font-size: 30px;
+  color: #aa21af;
+  font-weight: 400;
+}
+
+.akey-pon1 {
+  padding: 0;
+  list-style: none;
+}
+
+.akey-pon1 li {
+  margin: 10px 0;
+  padding-bottom: 55px;
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-animation: aboutani 3s;
+          animation: aboutani 3s;
+}
+
+@-webkit-keyframes aboutani {
+  from {
+    transform: rotateY(90deg);
+    opacity: 0.2;
+  }
+  to {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+.akey-pon1 li i {
+  float: right;
+}
+
+.vt-con-padding-li1 {
+  background-color: #ffcf64;
+  padding: 25px 20px 25px 20px;
+  margin-right: 215px;
+  font-size: 30px;
+  color: #aa21af;
+  font-weight: 400;
+}
+
+.vt-cont-email {
+  width: 275px;
+  margin-top: -102px;
+  margin-right: 60px;
+}
+
+.vt-cont-no {
+  width: 275px;
+  margin-top: -52px;
+  margin-left: -20px;
+}
+
+.vt-cont-add {
+  width: 425px;
+}
+
+.vt-join-head {
+  font-family: "Bufally Script";
+  font-weight: 500;
+  padding: 20px 0 20px;
+}
+
+.vt-join-head-color {
+  color: #ff2970;
+}
+
+.vt-join-head2 {
+  color: #40219f;
+}
+
+.vt-join-bg {
+  border: 0;
+}
+.vt-join-bg p {
+  padding: 15px 50px 15px;
+  box-shadow: 1px;
+  box-shadow: -5px 5px 5px 0px #d3cfcf;
+  border-radius: 25px;
+  background-color: #f7f7f7;
+}
+
+.vt-join-position-bg {
+  background-color: #ffcf64;
+}
+
+.vt-absolute {
+  position: absolute;
+  top: 0px;
+  right: -15px;
+}
+
+.vt-joinfast-bolu {
+  background-color: #f7f7f7;
+  margin-left: -30px;
+  margin-right: -30px;
+  position: relative;
+  margin-bottom: 16px;
+  height: 237px;
+}
+
+.vt-joinfast-img {
+  max-width: 150%;
+  margin-top: -50px;
+  margin-left: -36px;
+}
+
+.akey-pon-join {
+  padding: 0;
+  list-style: none;
+}
+
+.akey-pon-join li {
+  margin: 10px 0;
+  position: relative;
+  font-weight: 400;
+  font-size: 3px;
+  -webkit-animation: aboutani 3s;
+          animation: aboutani 3s;
+}
+
+@-webkit-keyframes aboutani {
+  from {
+    transform: rotateY(90deg);
+    opacity: 0.2;
+  }
+  to {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+.akey-pon-join li i {
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  font-size: 25px;
+}
+
+.vt-con-padding-li-join {
+  background-color: rgba(247, 247, 247, 0.8784313725);
+  padding: 15px 0 15px;
+  margin-left: 150px;
+  font-size: 17px;
+  color: #000;
+  font-weight: 500;
+  box-shadow: 0px 3px 10px 0px #d3cfcf;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.vt-join-img {
+  width: 150px;
+}
+
+.vt-font-weight-join {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.vt-font-weight-join-p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.vt-join-bg-1 {
+  background-color: #e70c0c;
+  color: #fff;
+  padding: 5px 5px 5px 5px;
+  font-size: 30px;
+  font-family: "Bufally Script";
+}
+
+.vt-services-round-title {
+  margin-left: -15px;
+  background-color: #ffcf64;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0px 70px 70px 0px;
+  color: #5b1366;
+}
+
+.vt-services-round-title-right {
+  margin-right: -15px;
+  background-color: #ffcf64;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 70px 0px 0px 70px;
+  color: #5b1366;
+  float: right;
+}
+
+.vt-curcive-font {
+  font-family: "Bufally Script";
+}
+
+.vt-font-size {
+  font-size: 35px;
+}
+
+.vt-font-weight {
+  font-weight: 500;
+}
+
+.vt-font-size-45 {
+  font-size: 45px;
+}
+
+.vt-font-color {
+  color: #40219f;
+}
+
+.vt-p-font-size {
+  font-size: 30px;
+}
+
+.vt-font-size21 {
+  font-size: 21px;
+}
+
+.vt-border {
+  border: none;
+}
+
+.form-control1 {
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #ffcf64;
+  background-clip: padding-box;
+  border: 0px solid #ced4da;
+  border-bottom: 1px solid rgba(143, 138, 138, 0.6784313725);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 4px;
+  box-shadow: none !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.vt-enq-row {
+  background-color: #ffcf64;
+  position: relative;
+  padding: 90px;
+}
+.vt-enq-row label {
+  font-size: 22px;
+  font-weight: 500;
+}
+.vt-enq-row img {
+  position: absolute;
+  width: 25%;
+  margin-top: -365px;
+  left: -85px;
+}
+
+.media1:first-child {
+  margin-top: 0;
+}
+
+.media1,
+.media1-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.media1 {
+  margin-top: 15px;
+}
+
+.media1-body,
+.media1-left,
+.media1-right {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.media1-body {
+  width: 10000px;
+}
+
+.media1,
+.media1-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.media1-left,
+.media1 > .pull-left {
+  padding-right: 10px;
+}
+
+.vt-join-bg-left {
+  padding: 15px 35px 15px;
+  box-shadow: 1px;
+  box-shadow: 0px 5px 5px 0px #d3cfcf;
+  border-radius: 25px;
+  background-color: #f7f7f7;
+}
+
+/*--------------------------------------------------------------
+# Testimonials Section
+--------------------------------------------------------------*/
+.testimonials .testimonial-item {
+  box-sizing: content-box;
+  padding: 30px;
+  margin: 40px 30px;
+  box-shadow: 0px 0 20px rgba(27, 47, 69, 0.1);
+  background: #fff;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.testimonials .testimonial-item .stars {
+  margin-bottom: 15px;
+}
+
+.testimonials .testimonial-item .stars i {
+  color: #ffc107;
+  margin: 0 1px;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto;
+}
+
+.testimonials .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+.testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+}
+
+.testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #e8eff6;
+  opacity: 1;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--color-primary);
+}
+
+.testimonials .swiper-slide {
+  opacity: 0.3;
+}
+
+@media (max-width: 1199px) {
+  .testimonials .swiper-slide-active {
+    opacity: 1;
+  }
+  .testimonials .swiper-pagination {
+    margin-top: 0;
+  }
+  .testimonials .testimonial-item {
+    margin: 40px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .testimonials .swiper-slide-next {
+    opacity: 1;
+    transform: scale(1.12);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .vt-out-bolu {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .vt-out-bolu .vt-Philosophy-bolu {
+    position: absolute;
+    top: 10%;
+  }
+  .vt-out-bolu .vt-Philosophy-bolu h2 {
+    font-family: "Bufally Script";
+    font-size: 50px;
+    color: #000;
+    font-weight: 400;
+  }
+  .vt-out-bolu .vt-Philosophy-bolu p {
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 912px) {
+  .vt-out-bolu {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .vt-out-bolu .vt-Philosophy-bolu {
+    position: absolute;
+    top: 10%;
+  }
+  .vt-out-bolu .vt-Philosophy-bolu h2 {
+    font-family: "Bufally Script";
+    font-size: 30px;
+    color: #000;
+    font-weight: 400;
+  }
+  .vt-out-bolu .vt-Philosophy-bolu p {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .akey-pon li {
+    margin: 10px 0;
+    padding-bottom: 55px;
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-animation: aboutani 3s;
+    animation: aboutani 3s;
+  }
+  .akey-pon li i {
+    position: absolute;
+    top: -15px;
+    left: 5px;
+    width: 50px;
+    line-height: 44px;
+    font-size: 25px;
+  }
+  .akey-pon1 li {
+    margin: 10px 0;
+    padding-bottom: 55px;
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-animation: aboutani 3s;
+    animation: aboutani 3s;
+  }
+  .akey-pon1 li i {
+    float: right;
+  }
+  .vt-cont-email {
+    width: 150px;
+    margin-top: -140px;
+    margin-right: 5px;
+  }
+  .vt-cont-no {
+    width: 155px;
+    margin-top: -85px;
+    margin-left: 0px;
+  }
+  .vt-cont-add {
+    width: 220px;
+    margin-top: -50px;
+  }
+  .vt-con-padding-li {
+    padding: 30px 0px 30px 0px;
+    font-size: 14px;
+    margin-left: 150px;
+  }
+  .vt-con-padding-li1 {
+    padding: 30px 0px 30px 0px;
+    font-size: 14px;
+    margin-right: 70px;
+  }
+  .akey-pon-join li i {
+    position: absolute;
+    top: -25px;
+    left: 0px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .vt-our-pillars {
+    display: none;
+  }
+  .vt-our-pillars-hide {
+    display: block;
+  }
+  .vt-margin-50 {
+    margin-left: 10px;
+  }
+  .vt-joinfast-bolu {
+    display: none;
+  }
+  .vt-contact-header-bg {
+    position: relative;
+    border: 0;
+  }
+  .vt-contact-header-bg .vt-contact-heding {
+    position: absolute;
+    top: 43%;
+  }
+  .vt-contact-header-bg .vt-contact-heding p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 30px;
+    margin-left: -150px;
+  }
+  .vt-contact-header-bg .vt-contact-heding span {
+    font-family: "Bufally Script";
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+  }
+  .akey-pon li {
+    margin: 10px 0;
+    padding-bottom: 55px;
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-animation: aboutani 3s;
+    animation: aboutani 3s;
+  }
+  .akey-pon li i {
+    position: absolute;
+    top: -15px;
+    left: 5px;
+    width: 50px;
+    line-height: 44px;
+    font-size: 25px;
+  }
+  .akey-pon1 li {
+    margin: 10px 0;
+    padding-bottom: 55px;
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-animation: aboutani 3s;
+    animation: aboutani 3s;
+  }
+  .akey-pon1 li i {
+    float: right;
+  }
+  .vt-cont-email {
+    width: 150px;
+    margin-top: -140px;
+    margin-right: 5px;
+  }
+  .vt-cont-no {
+    width: 155px;
+    margin-top: -85px;
+    margin-left: 0px;
+  }
+  .vt-cont-add {
+    width: 220px;
+    margin-top: -50px;
+  }
+  .vt-con-padding-li {
+    padding: 30px 0px 30px 0px;
+    font-size: 14px;
+    margin-left: 150px;
+  }
+  .vt-con-padding-li1 {
+    padding: 30px 0px 30px 0px;
+    font-size: 14px;
+    margin-right: 70px;
+  }
+  .akey-pon-join li i {
+    position: absolute;
+    top: -25px;
+    left: 0px;
+    font-size: 25px;
+  }
+  .vt-our-hide {
+    display: none;
+  }
+  .vt-our-show {
+    display: block;
+  }
+  .vt-font-weight-join {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .vt-font-weight-join-p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .vt-absolute {
+    display: none;
+  }
+  .vt-enq-row {
+    padding: 35px;
+  }
+  .vt-enq-row img {
+    display: none;
+  }
+  .vt-h3-Philosophy {
+    top: 0px;
+    position: relative;
+    font-family: "Bufally Script";
+  }
+  .vt-h3-Philosophy h3 {
+    float: right;
+    font-size: 30px;
+    color: #571d97;
+  }
+  #heading {
+    display: flex;
+    flex-direction: row;
+  }
+  #heading .image-team {
+    width: 40%;
+  }
+  #heading .image-pillars {
+    width: 70%;
+  }
+  .vt-card-color {
+    color: #222f6a;
+    margin-bottom: 55px;
+  }
+  .vt-card-color .vt-div-text-center {
+    text-align: center;
+  }
+}/*# sourceMappingURL=commanstyle.css.map */
