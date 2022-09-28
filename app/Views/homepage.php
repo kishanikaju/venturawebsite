@@ -578,7 +578,7 @@
                   <p>5Zenobia Sethna<br><small>VP & Head of eLarning Imarticus Learning</small></p>
                 </div>
                 <div class="card-body">
-                  <p class="card-text">We are highly impressed with the responsiveness that Ventura team shows in any project. They are not just the doers but the thinkers too. They gave a consultative approach to the project and worked as a core part of the team.<span id="dots4">...</span><span id="more4"> Very dependable and reliable!<br>They made all the efforts to meet the project expectations and even went out of the way to achieve what was needed.<br> We have been working with Ventura team since a year now and are absolutely happy with the team’s commitment towards their work.</span></p>
+                  <p class="card-text">We are highly impressed with the responsiveness that Ventura team shows in any project. They are not just the doers but the thinkers too. They gave a consultative approach to the project and worked as a core part of the team.<span id="dots4">...</span><span id="more4"> Very dependable and reliable!<br>They made all the efforts to meet the project expectations and even went out of the way to achieve what was needed.<br> We have been working with Ventura team since a year now and are absolutely happy with the team's commitment towards their work..</span></p>
                                     <a href="javascript:void(0)" onclick="myFunction4()" class="card-link float-end" id="myBtn4" style="text-decoration: none;">Read more</a>
                 </div>
               </div>
@@ -613,7 +613,7 @@
                   <p>7Zenobia Sethna<br><small>VP & Head of eLarning Imarticus Learning</small></p>
                 </div>
                 <div class="card-body">
-                  <p class="card-text">Congratulations Ventura team for the great success on this project :) You have always been client centric and provided us with quality output. We thank you for all your dedication and effort and wish you all the success in everything you do.<span id="dots5">...</span><span id="more5"><br>Please convey my special thanks to your CE team. They have done great work in the Amazon project so far.</span></p>
+                  <p class="card-text">Congratulations! Ventura team for the great success on this project :) You have always been client centric and provided us with quality output. We thank you for all your dedication and effort and wish you all the success in everything you do.<span id="dots5">...</span><span id="more5"><br>Please convey my special thanks to your CE team. They have done great work in the Amazon project so far.</span></p>
                                     <a href="javascript:void(0)" onclick="myFunction5()" class="card-link float-end" id="myBtn5" style="text-decoration: none;">Read more</a>
                 </div>
               </div>
