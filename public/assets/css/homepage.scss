@@ -664,20 +664,28 @@
 
 .vt-footer {
     position: relative;
-    background-color: #252c32;
+    background-color: #000d3a;
     top: 0;
     // padding: 10px;
     margin-bottom: -20px;
 
-    h5,
     P,
+    h5,
+    h6,
     a {
         color: #fff;
+
+
+    }
+
+    .fa-circ {
+        font-size: 11px;
+        margin-right: 8px;
     }
 
     .text-bg-dark {
-        background-color: #252c32;
-        border: 1px solid #252c32;
+        background-color: #000d3a;
+        border: 1px solid #000d3a;
     }
 
     .vt-li {
@@ -689,9 +697,9 @@
     }
 
     .vt-footer-res {
-        border-bottom: 1px solid #363636;
-        border-top: 1px solid #363636;
-        background-color: #232630;
+        border-bottom: 1px solid #0a1642;
+        border-top: 1px solid #0a1642;
+        background-color: #0a1642;
         margin-bottom: 20px;
         padding-top: 10px;
     }
@@ -700,7 +708,8 @@
 .vt-pink-color {
     position: relative;
     border: 0;
-    background: linear-gradient(270deg, #ff508a 0%, #ff075a 100%);
+    // background: linear-gradient(270deg, #ff508a 0%, #ff075a 100%);
+    background: linear-gradient(44deg, #5b50ff 0%, #ff075ad1 100%);
     height: 50%;
     width: 100%;
     padding: 25px 115px 35px;
@@ -723,7 +732,8 @@
     .vt-pink-color {
         position: relative;
         border: 0;
-        background: linear-gradient(270deg, #ff508a 0%, #ff075a 100%);
+        // background: linear-gradient(270deg, #ff508a 0%, #ff075a 100%);
+        background: linear-gradient(44deg, #5b50ff 0%, #ff075ad1 100%);
         height: 50%;
         width: 100%;
         padding: 25px 20px 35px;

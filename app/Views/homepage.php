@@ -578,7 +578,7 @@
                   <p>5Zenobia Sethna<br><small>VP & Head of eLarning Imarticus Learning</small></p>
                 </div>
                 <div class="card-body">
-                  <p class="card-text">We are highly impressed with the responsiveness that Ventura team shows in any project. They are not just the doers but the thinkers too. They gave a consultative approach to the project and worked as a core part of the team.<span id="dots4">...</span><span id="more4"> Very dependable and reliable!<br>They made all the efforts to meet the project expectations and even went out of the way to achieve what was needed.<br> We have been working with Ventura team since a year now and are absolutely happy with the team's commitment towards their work..</span></p>
+                  <p class="card-text">We are highly impressed with the responsiveness that Ventura team shows in any project. They are not just the doers but the thinkers too. They gave a consultative approach to the project and worked as a core part of the team.<span id="dots4">...</span><span id="more4"> Very dependable and reliable!<br>They made all the efforts to meet the project expectations and even went out of the way to achieve what was needed.<br> We have been working with Ventura team since a year now and are absolutely happy with the team's commitment towards their work.</span></p>
                                     <a href="javascript:void(0)" onclick="myFunction4()" class="card-link float-end" id="myBtn4" style="text-decoration: none;">Read more</a>
                 </div>
               </div>
@@ -749,11 +749,12 @@
 
 
                   <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="text-decoration-none">Home</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="text-decoration-none">Features</a></li>
+                    <li class="nav-item mb-2"><a href="<?php echo base_url();?>" class="text-decoration-none"><i class="fa fa-circle-o fa-circ"></i>Home</a></li>
+                    <li class="nav-item mb-2"><a href="<?php echo base_url();?>" class="text-decoration-none"><i class="fa fa-circle-o fa-circ"></i>About</a></li>
 
-                    <li class="nav-item mb-2"><a href="#" class="text-decoration-none">FAQs</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="text-decoration-none">About</a></li>
+                    <li class="nav-item mb-2"><a href="<?php echo base_url('contact');?>" class="text-decoration-none"><i class="fa fa-circle-o fa-circ"></i>Contact us</a></li>
+                    <li class="nav-item mb-2"><a href="<?php echo base_url();?>" class="text-decoration-none"><i class="fa fa-circle-o fa-circ"></i>Knowledge Center</a></li>
+                    <li class="nav-item mb-2"><a href="<?php echo base_url('/join-out-team');?>" class="text-decoration-none"><i class="fa fa-circle-o fa-circ"></i>join out team</a></li>
                   </ul>
                 </div>
               </div>
@@ -771,8 +772,8 @@
             </div>
 
             <div class="col-md-4">
-
-              sasasas
+            <img src="<?php echo base_url();?>/assets/img/footer-logo.png" alt="" class="img-fluid" style="width: 270px;"/>
+              <h6>World's Most Admired Learning Design & Technology Company in the making</h6>
             </div>
 
           </div>
